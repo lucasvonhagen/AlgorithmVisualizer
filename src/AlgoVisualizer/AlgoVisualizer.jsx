@@ -24,16 +24,19 @@ export default class AlgoVisualizer extends React.Component{
     }
 
 
+
+    // Ändra till rätt classname när rendering av bars fixat
     render() {
         const {array} = this.state;
 
         return (
             <>
             {array.map((value, idx) => (
-                <div className="arrayBar" key={idx}>
+                <div className="array-Container" key={idx}>
                      {value}
                 </div>
             ))}
+            <button onClick={() => this.resetArray()}>Generate New Array</button>
             </>
         )
     }

@@ -1,0 +1,9 @@
+.arrayContainer{
+    position: absolute;
+    left: 100px;
+}
+
+.arrayBar {
+    width: 2px;
+    display: inline-block;
+}
