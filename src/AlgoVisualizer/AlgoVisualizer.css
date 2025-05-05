@@ -5,5 +5,7 @@
 
 .arrayBar {
     width: 2px;
+    background-color: chartreuse;
     display: inline-block;
+    margin: 1px;
 }
