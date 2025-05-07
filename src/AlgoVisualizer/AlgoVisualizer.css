@@ -1,11 +1,11 @@
-.arrayContainer{
+.array-container {
     position: absolute;
     left: 100px;
-}
-
-.arrayBar {
+    /* top: 100px; */
+  }
+  
+  .array-bar {
     width: 2px;
-    background-color: chartreuse;
     display: inline-block;
-    margin: 1px;
-}
+    margin: 0 1px;
+  }
